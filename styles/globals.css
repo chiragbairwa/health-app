@@ -1,16 +1,48 @@
+@import url('../styles/services.css');
+@import url('../styles/header.css');
+
 html,
 body {
-  padding: 0;
+  padding: 0 0 0 75px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
-
 * {
   box-sizing: border-box;
+}
+/* 1st page */
+.homepage {
+  height: 100vh;
+}
+
+/* Welcome */
+.welcome {
+  margin: 22vh 0 60px 0;
+}
+.welcome pre:first-child {
+  font-size: 28px;
+  font-weight: 600;
+}
+.welcome pre::before {
+  content: 'Trust Me,';
+  color: rgb(72, 180, 72);
+}
+.welcome p {
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  border: 2px solid lightgreen;
+  border-radius: 25px;
+  padding: 7px 30px;
+  margin-right: 40px;
+}
+.welcome-btn1 {
+  background-color: lightgreen;
 }

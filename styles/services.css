@@ -1,0 +1,18 @@
+/* Services */
+.services div {
+  display: flex;
+  margin-left: 5vw;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: beige;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid #131111;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}

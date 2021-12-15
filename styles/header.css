@@ -1,0 +1,21 @@
+/* Header */
+
+.header {
+  width: 100%;
+  padding-top: 50px;
+}
+.header svg {
+  margin-left: 75px;
+}
+.navbar {
+  float: right;
+}
+.navbar a {
+  margin-right: 70px;
+  padding: 7px 30px;
+  border-width: 2px;
+}
+.navbar a:hover {
+  border: 2px solid lightgreen;
+  border-radius: 25px;
+}
