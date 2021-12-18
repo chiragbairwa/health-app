@@ -1,5 +1,7 @@
 @import url('../styles/services.css');
-@import url('../styles/header.css');
+@import url('../styles/homepage.css');
+@import url('../styles/plans.css');
+@import url('../styles/success.css');
 
 html,
 body {
@@ -15,34 +17,11 @@ a {
 * {
   box-sizing: border-box;
 }
-/* 1st page */
+
 .homepage {
   height: 100vh;
 }
 
-/* Welcome */
-.welcome {
-  margin: 22vh 0 60px 0;
-}
-.welcome pre:first-child {
-  font-size: 28px;
-  font-weight: 600;
-}
-.welcome pre::before {
-  content: 'Trust Me,';
-  color: rgb(72, 180, 72);
-}
-.welcome p {
-  width: 400px;
-  margin-bottom: 40px;
-}
-
-.btn {
-  border: 2px solid lightgreen;
-  border-radius: 25px;
-  padding: 7px 30px;
-  margin-right: 40px;
-}
-.welcome-btn1 {
-  background-color: lightgreen;
+.heading {
+  font-size: 38px;
 }

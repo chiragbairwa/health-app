@@ -1,25 +1,18 @@
 export default function Services() {
   return (
     <div className="services">
-      <h2>Diets plans we provide</h2>
+      <p className="heading">Dietitian Services</p>
       <div>
         <div className="card">
-          <h2>Basic</h2>
-          <span>1500kcal</span>
-
-          <p align="right">From $29/Month</p>
+          <h2>Diet Counseling</h2>
         </div>
-        <div className="card">
-          <h2>Intermediate</h2>
-          <span>1500kcal</span>
 
-          <p align="right">From $29/Month</p>
+        <div className="card">
+          <h2>Diet Planning</h2>
         </div>
-        <div className="card">
-          <h2>Advanced</h2>
-          <span>3500kcal</span>
 
-          <p align="right">From $29/Month</p>
+        <div className="card">
+          <h2>Diet Education</h2>
         </div>
       </div>
     </div>

@@ -1,0 +1,40 @@
+/* Header */
+
+.header {
+  width: 100%;
+  padding-top: 50px;
+}
+.navbar {
+  float: right;
+}
+.navbar a {
+  margin-right: 30px;
+  padding: 7px 30px;
+  border-width: 2px;
+  font-size: larger;
+}
+.navbar a:hover {
+  color: lightgreen;
+}
+
+/* Welcome */
+.welcome {
+  margin: 22vh 0 60px 0;
+}
+.welcome pre {
+  font-size: 48px;
+  font-weight: 600;
+}
+.welcome pre::before {
+  content: 'Trust Me,';
+  color: rgb(72, 180, 72);
+}
+
+.btn {
+  border: 2px solid lightgreen;
+  padding: 7px 30px;
+  margin-right: 40px;
+}
+.welcome-btn:hover {
+  background-color: lightgreen;
+}

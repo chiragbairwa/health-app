@@ -6,6 +6,9 @@ import styles from '../styles/Home.module.css'
 import Navbar from './navbar'
 import Welcome from './welcome'
 import Services from './services'
+import Plans from './plans'
+import Success from './success'
+
 export default function Main() {
   return (
     <div className={styles.container}>
@@ -19,6 +22,8 @@ export default function Main() {
         <Welcome></Welcome>
       </div>
       <Services></Services>
+      <Plans></Plans>
+      <Success></Success>
     </div>
   )
 }

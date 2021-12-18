@@ -1,0 +1,13 @@
+/* Plans */
+
+.plans div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-card:hover {
+  width: 275px;
+  height: 350px;
+  transition: all 0.5s ease-out;
+}

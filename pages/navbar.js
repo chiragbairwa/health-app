@@ -16,10 +16,7 @@ export default function Navbar() {
           Diets
         </a>
         <a href="#" className="nav-btn3">
-          Menu
-        </a>
-        <a href="#" className="nav-btn4">
-          Contact
+          Contact Us
         </a>
       </nav>
     </header>
