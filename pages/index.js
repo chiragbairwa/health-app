@@ -8,6 +8,7 @@ import Welcome from './welcome'
 import Services from './services'
 import Plans from './plans'
 import Success from './success'
+import Contact from './contact'
 
 export default function Main() {
   return (
@@ -21,9 +22,19 @@ export default function Main() {
         <Navbar></Navbar>
         <Welcome></Welcome>
       </div>
-      <Services></Services>
-      <Plans></Plans>
-      <Success></Success>
+      <div className="homepage">
+        <Services></Services>
+      </div>
+      <div className="homepage">
+        <Plans></Plans>
+      </div>
+      <div className="homepage">
+        <Success></Success>
+      </div>
+
+      <div className="homepage">
+        <Contact></Contact>
+      </div>
     </div>
   )
 }
