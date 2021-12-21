@@ -1,40 +1,38 @@
 /* Header */
 
 .header {
-  width: 100%;
   padding-top: 50px;
+  margin: 0 0 0 7rem;
 }
 .navbar {
   float: right;
 }
 .navbar a {
-  margin-right: 30px;
   padding: 7px 30px;
   border-width: 2px;
-  font-size: larger;
+  font-size: 24px;
 }
 .navbar a:hover {
-  color: lightgreen;
+  color: yellow;
+}
+.navbar:last-child {
+  margin-right: 200px;
 }
 
 /* Welcome */
 .welcome {
-  margin: 22vh 0 60px 0;
+  margin: 10rem 0 0 7rem;
 }
 .welcome pre {
+  font-family: 'Gatwick';
   font-size: 48px;
-  font-weight: 600;
-}
-.welcome pre::before {
-  content: 'Trust Me,';
-  color: rgb(72, 180, 72);
 }
 
-.btn {
-  border: 2px solid lightgreen;
+.welcome-btn {
+  border: 2px solid grey;
   padding: 7px 30px;
   margin-right: 40px;
 }
 .welcome-btn:hover {
-  background-color: lightgreen;
+  background-color: grey;
 }

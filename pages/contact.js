@@ -1,5 +1,3 @@
-import img from '../public/bg.jpg'
-
 export default function Contact() {
   return (
     <div className="contact">

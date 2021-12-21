@@ -3,7 +3,7 @@ export default function Services() {
     <div className="services">
       <p className="heading">Dietitian Services</p>
       <div>
-        <div className="card">
+        <div className="card diet-counselling">
           <h2>Diet Counseling</h2>
         </div>
 

@@ -5,6 +5,11 @@
   align-items: center;
   justify-content: center;
 }
+.diet-counselling {
+  background-image: url('../public/diet-counselling.jpg');
+  background-position: center;
+  background-size: cover;
+}
 .card {
   display: flex;
   flex-direction: column;
