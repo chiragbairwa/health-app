@@ -1,5 +1,4 @@
 /* Header */
-
 .header {
   padding-top: 50px;
   margin: 0 0 0 7rem;
@@ -27,7 +26,6 @@
   font-family: 'Gatwick';
   font-size: 48px;
 }
-
 .welcome-btn {
   border: 2px solid grey;
   padding: 7px 30px;

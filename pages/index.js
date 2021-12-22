@@ -26,19 +26,10 @@ export default function Main() {
       <div className="homepage">
         <Welcome></Welcome>
       </div>
-      <div className="homepage">
-        <Services></Services>
-      </div>
-      <div className="homepage">
-        <Plans></Plans>
-      </div>
-      <div className="homepage">
-        <Success></Success>
-      </div>
-
-      <div className="homepage">
-        <Contact></Contact>
-      </div>
+      <Services></Services>
+      <Plans></Plans>
+      <Success></Success>
+      <Contact></Contact>
     </>
   )
 }

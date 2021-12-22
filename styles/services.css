@@ -2,24 +2,48 @@
 
 .services div {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 20px;
+  justify-content: space-evenly;
 }
+
+.services div div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  width: 400px;
+  height: 400px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
 .diet-counselling {
   background-image: url('../public/diet-counselling.jpg');
   background-position: center;
   background-size: cover;
 }
+.diet-planning {
+  background-image: url('../public/diet-planning.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.diet-education {
+  background-image: url('../public/diet-education.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.diet-counselling:hover,
+.diet-education:hover,
+.diet-planning:hover {
+  border: 3px solid black;
+}
+
 .card {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
   padding: 1rem;
-  background-color: white;
-  width: 250px;
-  height: 300px;
-  border-radius: 10px;
-  text-decoration: none;
-  border: 2px solid #131111;
+  width: 400px;
+  height: 350px;
+
+  /* border: 2px solid #131111; */
   transition: color 0.15s ease, border-color 0.15s ease;
 }

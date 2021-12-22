@@ -1,17 +1,16 @@
 export default function Services() {
   return (
     <div className="services">
-      <p className="heading">Dietitian Services</p>
       <div>
-        <div className="card diet-counselling">
+        <div className="diet-counselling">
           <h2>Diet Counseling</h2>
         </div>
 
-        <div className="card">
+        <div className="diet-planning">
           <h2>Diet Planning</h2>
         </div>
 
-        <div className="card">
+        <div className="diet-education">
           <h2>Diet Education</h2>
         </div>
       </div>
