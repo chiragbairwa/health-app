@@ -36,14 +36,3 @@
 .diet-planning:hover {
   border: 3px solid black;
 }
-
-.card {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  width: 400px;
-  height: 350px;
-
-  /* border: 2px solid #131111; */
-  transition: color 0.15s ease, border-color 0.15s ease;
-}
