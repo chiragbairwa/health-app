@@ -38,4 +38,6 @@ a {
 }
 .heading {
   font-size: 38px;
+  font-weight: bold;
+  color: green;
 }
