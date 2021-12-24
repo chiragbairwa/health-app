@@ -15,12 +15,15 @@
   display: flex;
   color: black;
   text-align: center;
+  box-shadow: 5px 5px 10px #888888;
   flex-direction: column;
-  border: 1px solid whitesmoke;
-  background-color: lightgreen;
-}
-.plan-card:hover {
   background-color: white;
+}
+/* .plan-card:hover {
+  background-color: white;
+} */
+.plan-card p {
+  font-weight: bold;
 }
 .plan-perks-blank {
   list-style-image: url('../public/cross-list.gif');
@@ -30,4 +33,13 @@
   font-weight: 600;
   font-size: 0.9em;
   list-style-image: url('../public/check-list.gif');
+}
+
+.plan-card a {
+  border: 2px solid lightgreen;
+  /* border-radius: 15px; */
+  padding: 5px 15px;
+}
+.plan-card a:hover {
+  background-color: lightgreen;
 }

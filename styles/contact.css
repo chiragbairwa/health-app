@@ -1,14 +1,29 @@
 /* contact */
 
 .contact {
+  height: 50%;
   display: flex;
-  /* align-items: center;
-    justify-content: center; */
+  justify-content: center;
 }
 
-.demo-div {
-  width: 50%;
+.contact-card {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 150px;
+  width: 60%;
+  height: 500px;
+
+  background-color: white;
+  box-shadow: 1px 2px 15px 5px #888888;
+  /* overflow: hidden; */
+}
+.contact-img {
+  background-image: url('../public/fitness.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+}
+.contact-bg {
+  height: 50%;
+  z-index: -1;
+  background-color: grey;
 }

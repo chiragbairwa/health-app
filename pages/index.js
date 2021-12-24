@@ -29,7 +29,9 @@ export default function Main() {
       <Services></Services>
       <Plans></Plans>
       <Success></Success>
-      <Contact></Contact>
+      <div className="homepage">
+        <Contact></Contact>
+      </div>
     </>
   )
 }

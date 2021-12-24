@@ -1,24 +1,17 @@
+import Image from 'next/image'
+
 export default function Contact() {
   return (
-    <div className="contact">
-      <div className="demo-div"></div>
+    <>
+      <div className="contact">
+        <div className="contact-card">
+          <div className="contact-img"></div>
 
-      <div className="contact-details">
-        <p className="heading">Contact details</p>
-        {/*         
-        <p>Mobile Number</p>
-        <p>Mail Address</p> */}
-        <table>
-          <tr key="Email">Email</tr>
-          <td>ABC@gmail.com</td>
-
-          <tr key="Mob">Mobile</tr>
-          <td>814232323</td>
-
-          <tr key="Mail">Mail</tr>
-          <td>dqmwd coanojdeno</td>
-        </table>
+          <div className="contact-detail"></div>
+        </div>
       </div>
-    </div>
+
+      <div className="contact-bg"></div>
+    </>
   )
 }
