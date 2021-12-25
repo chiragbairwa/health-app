@@ -4,6 +4,7 @@
   height: 50%;
   display: flex;
   justify-content: center;
+  color: black;
 }
 
 .contact-card {
@@ -22,8 +23,17 @@
   background-size: cover;
   width: 50%;
 }
+.contact-detail {
+  margin: 8rem 0 0 4rem;
+}
+
 .contact-bg {
   height: 50%;
   z-index: -1;
   background-color: grey;
+}
+.contact-bg p {
+  position: absolute;
+  margin-top: 20rem;
+  margin-left: 30rem;
 }
