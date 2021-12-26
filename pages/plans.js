@@ -43,7 +43,7 @@ export default function Plans() {
             <li>Monthly Excercise Plan.</li>
             <li>Workout Guides & Many More.</li>
           </ul>
-          <a href="#">From $850/-</a>
+          <p>From $850/-</p>
         </div>
       </div>
 

@@ -1,0 +1,27 @@
+/* Clients */
+
+.clients {
+  margin-top: 100px;
+  color: black;
+}
+.clients-row {
+  margin-top: 100px;
+  padding: 0 150px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.clients-card {
+  width: 300px;
+  padding: 1rem;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  background-color: white;
+}
+.clients-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

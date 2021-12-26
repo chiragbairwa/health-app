@@ -1,7 +1,7 @@
 @import url('../styles/homepage.css');
 @import url('../styles/services.css');
 @import url('../styles/plans.css');
-@import url('../styles/success.css');
+@import url('../styles/clients.css');
 @import url('../styles/contact.css');
 
 @font-face {
@@ -40,4 +40,5 @@ a {
   font-size: 38px;
   font-weight: bold;
   color: green;
+  text-align: center;
 }

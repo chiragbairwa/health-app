@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 40px;
 }
 
 .plan-card {
@@ -14,14 +15,16 @@
   padding: 1rem;
   display: flex;
   color: black;
+  border-radius: 5px;
   text-align: center;
-  box-shadow: 5px 5px 10px #888888;
   flex-direction: column;
   background-color: white;
+  box-shadow: 1px 1px 10px #888888;
 }
-/* .plan-card:hover {
-  background-color: white;
-} */
+.plan-card:hover {
+  background-color: lightgreen;
+}
+
 .plan-card p {
   font-weight: bold;
 }
@@ -37,7 +40,7 @@
 
 .plan-card a {
   border: 2px solid lightgreen;
-  /* border-radius: 15px; */
+
   padding: 5px 15px;
 }
 .plan-card a:hover {

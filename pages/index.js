@@ -6,7 +6,7 @@ import Head from 'next/head'
 import Welcome from './welcome'
 import Services from './services'
 import Plans from './plans'
-import Success from './success'
+import Clients from './clients'
 import Contact from './contact'
 
 export default function Main() {
@@ -28,7 +28,7 @@ export default function Main() {
       </div>
       <Services></Services>
       <Plans></Plans>
-      <Success></Success>
+      <Clients></Clients>
       <div className="homepage">
         <Contact></Contact>
       </div>
