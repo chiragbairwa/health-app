@@ -1,5 +1,8 @@
 /* Services */
-
+.services {
+  /* padding-bottom: 100px; */
+  height: 100vh;
+}
 .services div {
   display: flex;
   margin-top: 20px;

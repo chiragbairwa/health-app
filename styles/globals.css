@@ -28,17 +28,18 @@ a {
   box-sizing: border-box;
 }
 
-.homepage {
+.fullpage {
   height: 100vh;
+  padding-top: 20px;
 }
-.homepage:first-child {
-  background-image: url('../public/bg.jpg');
+.fullpage:first-child {
+  background-image: url('../public/bg.webp');
   background-size: cover;
   background-position: center;
 }
 .heading {
   font-size: 38px;
   font-weight: bold;
-  color: green;
+  /* color: green; */
   text-align: center;
 }

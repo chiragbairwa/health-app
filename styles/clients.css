@@ -1,7 +1,7 @@
 /* Clients */
 
 .clients {
-  margin-top: 100px;
+  height: 100%;
   color: black;
 }
 .clients-row {
@@ -18,7 +18,6 @@
   display: flex;
   text-align: left;
   flex-direction: column;
-  background-color: white;
 }
 .clients-card img {
   width: 200px;

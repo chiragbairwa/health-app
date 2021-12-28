@@ -1,6 +1,8 @@
 /* Plans */
 .plans {
-  margin-top: 100px;
+  background-image: url(../public/bg.webp);
+  height: 100vh;
+  background-size: cover;
 }
 .plans div {
   display: flex;
