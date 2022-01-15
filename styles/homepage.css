@@ -1,10 +1,11 @@
 /* Header */
 .header {
-  padding-top: 50px;
+  padding-top: 10px;
   margin: 0 0 0 7rem;
 }
 .navbar {
   float: right;
+  padding-top: 30px;
 }
 .navbar a {
   padding: 7px 30px;
@@ -14,23 +15,45 @@
 .navbar a:hover {
   color: yellow;
 }
+
 .navbar:last-child {
   margin-right: 200px;
 }
 
 /* Welcome */
 .welcome {
-  margin: 10rem 0 0 7rem;
+  margin: 8rem 0 0 7rem;
 }
 .welcome pre {
   font-family: 'Gatwick';
   font-size: 48px;
 }
 .welcome-btn {
-  border: 2px solid grey;
+  border: 2px solid white;
   padding: 7px 30px;
   margin-right: 40px;
 }
 .welcome-btn:hover {
-  background-color: grey;
+  background-color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    margin-left: 2rem;
+  }
+  .navbar {
+    visibility: hidden;
+  }
+  /* Welcome */
+  .welcome {
+    margin: 10rem 0 0 2rem;
+    z-index: 3;
+  }
+
+  .welcome pre {
+    font-size: 28px;
+  }
+  .welcome-btn {
+    margin-top: 100px;
+  }
 }

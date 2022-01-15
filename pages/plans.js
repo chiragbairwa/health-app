@@ -48,7 +48,7 @@ export default function Plans() {
       </div>
 
       <pre align="center">{`Need more information about your nutritional needs?
-We offer above services`}</pre>
+We offer services`}</pre>
     </div>
   )
 }

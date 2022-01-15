@@ -1,11 +1,10 @@
 /* Services */
 .services {
-  /* padding-bottom: 100px; */
   height: 100vh;
 }
 .services div {
   display: flex;
-  margin-top: 20px;
+  /* padding-top: 20px; */
   justify-content: space-evenly;
 }
 
@@ -19,23 +18,28 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.diet-counselling {
-  background-image: url('../public/diet-counselling.jpg');
+.diet-counselling,
+.diet-planning,
+.diet-education {
   background-position: center;
   background-size: cover;
+}
+.diet-counselling {
+  background-image: url('../public/diet-counselling.jpg');
 }
 .diet-planning {
   background-image: url('../public/diet-planning.jpg');
-  background-position: center;
-  background-size: cover;
 }
 .diet-education {
   background-image: url('../public/diet-education.jpg');
-  background-position: center;
-  background-size: cover;
 }
 .diet-counselling:hover,
 .diet-education:hover,
 .diet-planning:hover {
   border: 3px solid black;
+}
+
+.services pre {
+  color: black;
+  font-size: 24px;
 }

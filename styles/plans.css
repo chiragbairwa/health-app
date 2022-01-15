@@ -1,14 +1,15 @@
 /* Plans */
 .plans {
-  background-image: url(../public/bg.webp);
+  background-image: url(../public/bg1.webp);
   height: 100vh;
   background-size: cover;
+  padding-top: 5px;
 }
 .plans div {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 40px;
+  /* padding-top: 40px; */
 }
 
 .plan-card {
@@ -22,9 +23,6 @@
   flex-direction: column;
   background-color: white;
   box-shadow: 1px 1px 10px #888888;
-}
-.plan-card:hover {
-  background-color: lightgreen;
 }
 
 .plan-card p {
@@ -47,4 +45,9 @@
 }
 .plan-card a:hover {
   background-color: lightgreen;
+}
+
+.plans pre {
+  margin-top: 50px;
+  font-size: 24px;
 }
