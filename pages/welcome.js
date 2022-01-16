@@ -3,7 +3,7 @@ export default function Welcome() {
     <>
       <header className="header">
         {/* LOGO */}
-        <img src="logo.png" alt="logo" />
+        <img src="logo.png" alt="logo" height="60" />
 
         {/* Navbar */}
         <nav className="navbar">
