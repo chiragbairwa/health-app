@@ -30,7 +30,7 @@ a {
 
 .fullpage {
   height: 100vh;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 .fullpage:first-child {
   background-image: url('../public/bg.webp');

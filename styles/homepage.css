@@ -1,10 +1,13 @@
 /* Header */
 .header {
-  padding-top: 30px;
   margin: 0 0 0 7rem;
 }
+.header img {
+  height: 150px;
+  width: 150px;
+}
 .navbar {
-  padding-top: 10px;
+  padding-top: 50px;
   float: right;
 }
 .navbar a {
