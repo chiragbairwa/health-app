@@ -14,10 +14,8 @@ export default function Plans() {
             <li>4 Checkout Calls.</li>
             <li>Indian Healthy Recipes.</li>
             <li>Whatsapp Support.</li>
-            <li className="plan-perks-blank">Monthly Excercise Plan.</li>
             <li className="plan-perks-blank">Workout Guides & Many More.</li>
           </ul>
-          <p>From $150/-</p>
         </div>
 
         <div className="plan-card">
@@ -27,10 +25,9 @@ export default function Plans() {
             <li>12 Checkout Calls.</li>
             <li>Indian Healthy Recipes.</li>
             <li>Whatsapp Support.</li>
-            <li>Monthly Excercise Plan.</li>
+
             <li className="plan-perks-blank">Workout Guides & Many More.</li>
           </ul>
-          <p>From $450/-</p>
         </div>
 
         <div className="plan-card">
@@ -40,10 +37,8 @@ export default function Plans() {
             <li>24 Checkout Calls.</li>
             <li>Indian Healthy Recipes.</li>
             <li>Unlimited Whatsapp Support.</li>
-            <li>Monthly Excercise Plan.</li>
             <li>Workout Guides & Many More.</li>
           </ul>
-          <p>From $850/-</p>
         </div>
       </div>
 

@@ -1,10 +1,10 @@
 /* Services */
 .services {
+  padding-top: 20px;
   height: 100vh;
 }
 .services div {
   display: flex;
-  /* padding-top: 20px; */
   justify-content: space-evenly;
 }
 
@@ -15,7 +15,7 @@
   padding: 1rem;
   width: 400px;
   height: 400px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  transition: color 0.15s ease, 0.15s ease;
 }
 
 .diet-counselling,
@@ -25,21 +25,38 @@
   background-size: cover;
 }
 .diet-counselling {
-  background-image: url('../public/diet-counselling.jpg');
+  background-image: radial-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0)),
+    url('../public/diet-counselling.jpg');
 }
 .diet-planning {
-  background-image: url('../public/diet-planning.jpg');
+  background-image: radial-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0)),
+    url('../public/diet-planning.jpg');
 }
 .diet-education {
-  background-image: url('../public/diet-education.jpg');
+  background-image: radial-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0)),
+    url('../public/diet-education.jpg');
 }
 .diet-counselling:hover,
 .diet-education:hover,
 .diet-planning:hover {
-  border: 3px solid black;
+  border: 3px solid white;
 }
 
 .services pre {
   color: black;
   font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .services {
+    height: max-content;
+  }
+  .services div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .services div {
+    padding: 10px;
+  }
 }

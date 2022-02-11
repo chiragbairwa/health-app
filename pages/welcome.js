@@ -1,6 +1,6 @@
 export default function Welcome() {
   return (
-    <>
+    <div className="fullpage">
       <header className="header">
         {/* LOGO */}
         <img src="logo.png" alt="logo" />
@@ -30,6 +30,6 @@ have to be Boring.`}
           GET STARTED
         </a>
       </div>
-    </>
+    </div>
   )
 }

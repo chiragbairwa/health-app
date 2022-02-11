@@ -1,6 +1,10 @@
 export default function Services() {
   return (
     <div className="services">
+      <p className="heading" align="center">
+        Our Services
+      </p>
+
       <div>
         <div className="diet-counselling">
           <h2>Diet Counseling</h2>

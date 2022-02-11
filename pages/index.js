@@ -18,22 +18,15 @@ export default function Main() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.png" />
       </Head>
+
+      <Welcome></Welcome>
+      <Services></Services>
+
+      <Plans></Plans>
+
+      <Clients></Clients>
+
       <div className="fullpage ">
-        <Welcome></Welcome>
-      </div>
-      <div className="fullpage">
-        <Services></Services>
-      </div>
-
-      <div className="fullpage">
-        <Plans></Plans>
-      </div>
-
-      <div className="fullpage">
-        <Clients></Clients>
-      </div>
-
-      <div className="fullpage">
         <Contact></Contact>
       </div>
     </>

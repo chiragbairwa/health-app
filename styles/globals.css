@@ -28,24 +28,10 @@ a {
   font-family: 'Garet';
 }
 
-.fullpage {
-  height: 100vh;
-  /* padding-top: 20px; */
-}
-.fullpage:first-child {
-  background-image: url('../public/bg.webp');
-  background-size: cover;
-  background-position: center;
-}
-
 .heading {
   font-size: 38px;
   font-weight: bold;
   text-align: center;
-}
-
-@media only screen and (max-width: 786px) {
-  .fullpage:first-child {
-    background-position: right;
-  }
+  color: black;
+  margin-top: 0;
 }

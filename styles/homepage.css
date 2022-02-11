@@ -1,3 +1,13 @@
+.fullpage {
+  height: 100vh;
+  /* padding-top: 20px; */
+}
+.fullpage:first-child {
+  background-image: url('../public/bg.webp');
+  background-size: cover;
+  background-position: center;
+}
+
 /* Header */
 .header {
   margin: 0 0 0 7rem;
@@ -44,11 +54,19 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .fullpage:first-child {
+    background-position: right;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0)),
+      url('../public/bg.webp');
+  }
   .header {
     margin-left: 2rem;
   }
   .navbar {
     visibility: hidden;
+  }
+  .navbar:last-child {
+    margin-right: 0;
   }
   /* Welcome */
   .welcome {
