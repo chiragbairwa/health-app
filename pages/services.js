@@ -19,8 +19,8 @@ export default function Services() {
         </div>
       </div>
       {/* Quotes */}
-      <pre align="center">{`Need more information about your nutritional needs?
-We offer above services`}</pre>
+      {/* <pre align="center">{`Need more information about your nutritional needs?
+We offer above services`}</pre> */}
     </div>
   )
 }

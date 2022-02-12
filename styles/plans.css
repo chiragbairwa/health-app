@@ -43,3 +43,12 @@
   font-size: 24px;
   color: black;
 }
+
+@media only screen and (max-width: 768px) {
+  .plans {
+    height: auto;
+  }
+  .plans div {
+    flex-direction: column;
+  }
+}

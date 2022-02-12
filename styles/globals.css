@@ -14,17 +14,17 @@
 }
 html,
 body {
-  padding: 0;
   margin: 0;
-  font-family: 'Garet';
+  padding: 0;
   color: white;
+  overflow-x: auto;
+  font-family: 'Garet';
 }
 a {
   color: inherit;
   text-decoration: none;
 }
 * {
-  box-sizing: border-box;
   font-family: 'Garet';
 }
 
@@ -34,4 +34,7 @@ a {
   text-align: center;
   color: black;
   margin-top: 0;
+}
+
+@media only screen (max-width: 768px) {
 }
