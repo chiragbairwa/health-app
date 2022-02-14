@@ -18,9 +18,12 @@ export default function Services() {
           <h2>Diet Education</h2>
         </div>
       </div>
+
       {/* Quotes */}
-      {/* <pre align="center">{`Need more information about your nutritional needs?
-We offer above services`}</pre> */}
+      <p>
+        Need more information about your nutritional needs?
+        <br /> We offer above services
+      </p>
     </div>
   )
 }

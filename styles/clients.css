@@ -6,8 +6,6 @@
 .clients-row {
   display: flex;
   padding: 0 150px;
-  margin-top: 100px;
-  overflow-y: scroll;
   align-items: baseline;
   justify-content: space-evenly;
 }
@@ -23,4 +21,10 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .clients-row {
+    overflow-y: auto;
+  }
 }
