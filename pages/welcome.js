@@ -7,7 +7,7 @@ export default function Welcome() {
 
         {/* Navbar */}
         <nav className="navbar">
-          <a href="#" className="nav-btn1">
+          <a href="www.google.com" className="nav-btn1">
             Home
           </a>
           <a href="#" className="nav-btn2">
