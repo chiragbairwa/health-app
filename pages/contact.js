@@ -1,5 +1,5 @@
 export default function Contact() {
-  const submitContact = async (event) => {
+  const submithandler = async (event) => {
     event.preventDefault()
     alert(`So your name is ${event.target.name.value}?`)
   }
@@ -8,18 +8,47 @@ export default function Contact() {
       <div className="contact">
         <div className="contact-card">
           <div className="contact-detail">
-            <h2>Contact Us</h2>
+            <h2>Get Appointment</h2>
+            <form onSubmit={submithandler}>
+              <label>
+                Name :
+                <br />
+                <input type="text" id="name" />
+                <br />
+              </label>
 
-            <p>Mobile: +91-9517969885</p>
-            <p>Email : artidiets@gmail.com</p>
+              <label>
+                Email :
+                <br />
+                <input type="email" />
+                <br />
+              </label>
 
-            <button>Book Now</button>
+              <label>
+                Mobile No. (Whatsapp):
+                <br />
+                <input type="number"></input>
+                <br />
+              </label>
+
+              <label>
+                Message (Optional) :
+                <br />
+                <input type="text"></input>
+                <br />
+              </label>
+
+              <button type="submit" style={{ marginTop: 30 }}>
+                Get Appointment
+              </button>
+            </form>
           </div>
+          <div className="about-us">sknaln</div>
         </div>
       </div>
 
       <div className="contact-bg">
-        <p>©️ 2021 ABC Company, All Rights Reserved</p>
+        <p>©️ 2021 ArtiDiets , All Rights Reserved.</p>
       </div>
     </>
   )

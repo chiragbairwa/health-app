@@ -9,28 +9,25 @@
 
 .contact-card {
   width: 60%;
-  height: 500px;
   display: flex;
-  overflow: hidden;
+  height: 500px;
+  place-items: center;
   margin-top: 100px;
   border-radius: 15px;
   background-color: white;
   box-shadow: 1px 2px 10px 3px #888888;
 }
-.contact-img {
-  /* background-image: url('../public/contact-us.webp'); */
-  /* background-position: bottom; */
-  /* background-size: cover; */
-  width: 50%;
-}
 .contact-detail {
-  margin: 8rem 0 0 4rem;
+  /* align-items: center; */
+  margin: 0 0 0 4rem;
 }
-
+.contact-detail > button {
+  margin-top: 30px;
+}
 .contact-bg {
   height: 50%;
   z-index: -1;
-  background-color: grey;
+  background-color: #596679;
 }
 .contact-bg p {
   position: absolute;
@@ -39,9 +36,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .contact-img {
-    display: none;
-  }
   .contact-card {
     width: 80%;
   }
